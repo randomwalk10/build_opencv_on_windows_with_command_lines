@@ -1,2 +1,4 @@
 
-opencv-*
+opencv*
+x64
+*.exe
