@@ -30,13 +30,13 @@
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;$(StandardPDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);D:\opencv\opencv-4.1.2-cuda.10.2\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);.\install\opencv-4.1.2\include</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4101;4102</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\opencv\opencv-4.1.2-cuda.10.2\x64\vc14\staticlib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>.\install\opencv-4.1.2\x64\vc14\staticlib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64</AdditionalLibraryDirectories>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
       <AdditionalDependencies>cudart_static.lib;opencv_core412d.lib;ippiwd.lib;ippicvmt.lib;ittnotifyd.lib;IlmImfd.lib;libjasperd.lib;libpngd.lib;libtiffd.lib;libwebpd.lib;libjpeg-turbod.lib;zlibd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
@@ -49,13 +49,13 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;$(StandardPDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);D:\opencv\opencv-4.1.2-cuda.10.2\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);.\install\opencv-4.1.2\include</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4101;4102</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>false</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\opencv\opencv-4.1.2-cuda.10.2\x64\vc14\staticlib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>.\install\opencv-4.1.2\x64\vc14\staticlib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\lib\x64</AdditionalLibraryDirectories>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
       <AdditionalDependencies>cudart_static.lib;opencv_core412.lib;ippiw.lib;ippicvmt.lib;ittnotify.lib;IlmImf.lib;libjasper.lib;libpng.lib;libtiff.lib;libwebp.lib;libjpeg-turbo.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
