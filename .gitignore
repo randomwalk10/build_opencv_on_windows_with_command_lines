@@ -2,3 +2,10 @@
 opencv*
 x64
 *.exe
+*.pdb
+*.obj
+*.ilk
+*.exp
+*.lib
+install
+build
